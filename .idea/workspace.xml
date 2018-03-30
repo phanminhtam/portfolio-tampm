@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50fa64c3-913a-4844-b4cf-5275e4e93e84" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/custom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/flickity.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-frankruhl-firasans.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-karla.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-merriweather-ptsans.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-raleway.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-roboto.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-robotoslab.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-rubiklato.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/font-sourcesanspro.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/iconsmind.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/jquery.steps.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/lightbox.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/socicon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/stack-interface.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-aqua.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-cedar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-charcoal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-greensea.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-rtl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-serpent.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-tangerine.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme-yeller.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/css/theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/iconsmind.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/iconsmind.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/iconsmind.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/socicon.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/socicon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/socicon.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/socicon.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/stack-interface.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/stack-interface.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/stack-interface.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/stack-interface.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/fonts/stack-interface.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/accom-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/agency-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/agency-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/agency-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/agency-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/agency-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/architecture-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/architecture-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/architecture-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/art-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/art-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/art-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/art-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-group.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-large-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-large-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-large-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-round-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-round-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-round-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-round-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-round-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-round-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-wide-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-wide-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-wide-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/avatar-wide-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-ad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/blog-single-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/conference-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/conference-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/construction-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/construction-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/cowork-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demo-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demo-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demo-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demo-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demo-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demo-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/accommodation.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/agency-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/agency.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/coming-soon-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/coming-soon-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/coming-soon-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/construction.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/coworking.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/drone-photography.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/education.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/event.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/fitness.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/insurance.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/knowledge-base.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/landing-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/magazine-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/magazine.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/musician.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/nonprofit.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/personal-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/photography-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/photography.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/political.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/recruitment.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/restaurant.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/software-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/software-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/software-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/studio-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/studio-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/tourism.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/video.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/demos/wedding.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/device-bg-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/drone-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/drone-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/drone-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/drone-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/dropdown-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/dropdown-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/ebook-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/education-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/fitness-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/fitness-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/fitness-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/fitness-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/fitness-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/flag-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/flag-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/gallery-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/headline-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/headline-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/headline-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/headline-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/hero-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/hero-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/hero-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/inner-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/insurance-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/insurance-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/insurance-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/knowledge-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/landing-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/logo-agency.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/logo-dark.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/logo-light.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/logo-musician.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/logo-variant.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/mapmarker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/menu-promo-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/music-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/music-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/music-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nav-bar-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nav-bar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nav-fullscreen.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nav-sidebar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nonprofit-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nonprofit-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nonprofit-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nonprofit-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nonprofit-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/nonprofit-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/partner-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/personal-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/photography-logo-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/political-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/political-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-single-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-single-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-single-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-single-large-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-single-large-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/product-small-feature-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/promo-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/recruitment-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/recruitment-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/recruitment-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/recruitment-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/restaurant-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/restaurant-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/restaurant-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/restaurant-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/restaurant-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/restaurant-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/software-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/software-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/software-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/software-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/software-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/tourism-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/wedding-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/wedding-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/wedding-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/wedding-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/wedding-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-single-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-single-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-single-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/work-single-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/countdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/datepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/easypiechart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/flickity.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/granim.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/isotope.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/jquery-3.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/jquery.steps.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/lightbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/parallax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/scripts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/smooth-scroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/spectragram.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/twitterfetcher.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/typed.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/ytplayer.min.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tam_portfolio/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1518753348000" expanded="true" signature="24188:24218" ph="..." />
+                <marker date="1518753348000" expanded="true" signature="34192:34206" ph="..." />
+                <marker date="1518753348000" expanded="true" signature="34289:34303" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tam_portfolio/tam_portfolio/templates/base.html" />
+        <option value="$PROJECT_DIR$/tam_portfolio/tam_portfolio/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Sinh\Hoc tap\Projects\Tam Portfolio\cms\portfolio-tampm\tam_portfolio\tam_portfolio\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50fa64c3-913a-4844-b4cf-5275e4e93e84" name="Default" comment="" />
+      <created>1522397645849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522397645849</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tam_portfolio/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518753348000" expanded="true" signature="24188:24218" ph="..." />
+            <marker date="1518753348000" expanded="true" signature="34192:34206" ph="..." />
+            <marker date="1518753348000" expanded="true" signature="34289:34303" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/static/img/logo-dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tam_portfolio/tam_portfolio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
