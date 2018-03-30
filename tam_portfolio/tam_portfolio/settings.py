@@ -137,7 +137,6 @@ INSTALLED_APPS = (
     'djangocms_file',
     'djangocms_link',
     'djangocms_picture',
-    # 'djangocms_style',
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
