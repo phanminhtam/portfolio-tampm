@@ -1,0 +1,136 @@
+{% load cms_tags menu_tags sekizai_tags %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tam Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site Description Here">
+        <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/custom-style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        {% render_block "css" %}
+    </head>
+    <body>
+    {% cms_toolbar %}
+    <a id="start"></a>
+    <div class="nav-container ">
+        <div class="bar bar--sm visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 col-md-2">
+                        <a href="index.html">
+                            <img class="logo logo-dark" alt="logo" src="/static/img/logo-dark.png"/>
+                            <img class="logo logo-light" alt="logo" src="/static/img/logo-light.png"/>
+                        </a>
+                    </div>
+                    <div class="col-9 col-md-10 text-right">
+                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                            <i class="icon icon--sm stack-interface stack-menu"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </div>
+        <!--end bar-->
+        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='366px:pos-fixed'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 hidden-xs">
+                        <div class="bar__module">
+                            <a href="/">
+                                <img class="logo-dark" alt="logo" src="/static/img/resources/tp-400.png" width="56px"
+                                     height="56px"/>
+                                <!--<img class="logo logo-dark" alt="logo" src="static/img/logo-dark.png" />-->
+                                <!--<img class="logo logo-light" alt="logo" src="static/img/logo-light.png" />-->
+                            </a>
+                        </div>
+                        <!--end module-->
+                    </div>
+                    <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm" height="100%">
+                        <div class="bar__module" height="100%">
+                            <ul class="menu-horizontal text-left">
+                                {% show_menu 0 100 100 100 %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </nav>
+        <!--end bar-->
+    </div>
+
+    {% block content %}{% endblock content %}
+
+    <footer class="footer-3 text-center-xs space--xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img alt="Image" src="/static/img/resources/tp-400.png" width="56px" height="56px"/>
+                    <ul class="list-inline list--hover" style="margin-left: 10px;">
+                        <li class="list-inline-item">
+                            <span class="type--fine-print footer-text-style footer-bold">Tam Phan</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-right text-center-xs">
+                    <ul class="social-list list-inline list--hover">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="socicon socicon-google icon icon--xs footer-text-style"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="socicon socicon-twitter icon icon--xs footer-text-style"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="socicon socicon-facebook icon icon--xs footer-text-style"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="socicon socicon-instagram icon icon--xs footer-text-style"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--end of row-->
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6 text-right text-center-xs">
+                            <span class="type--fine-print footer-text-style">&copy;
+                                <span class="update-year"></span> Tam Phan</span>
+                    <a class="type--fine-print footer-text-style" href="#">Privacy Policy</a>
+                    <a class="type--fine-print footer-text-style" href="#">Legal</a>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </footer>
+
+
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/typed.min.js"></script>
+    <script src="/static/js/isotope.min.js"></script>
+    <script src="/static/js/granim.min.js"></script>
+    <script src="/static/js/smooth-scroll.min.js"></script>
+    <script src="/static/js/scripts.js"></script>
+    {% render_block "js" %}
+    </body>
+</html>

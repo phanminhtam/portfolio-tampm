@@ -1,0 +1,14 @@
+.bar-1 .menu-horizontal > li > a {
+    font-size: 1.4em;
+}
+
+.footer-text-style {
+    color: black!important;
+    opacity: 2!important;
+    font-size: 16px!important;
+}
+
+.footer-bold {
+    font-weight: bold;
+    font-size: 28px!important;
+}

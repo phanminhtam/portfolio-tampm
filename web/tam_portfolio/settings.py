@@ -143,7 +143,9 @@ INSTALLED_APPS = (
 
     'aldryn_style',
 
-    'tam_portfolio'
+    'tam_portfolio',
+    
+    'hero_area_plugin',
 )
 
 LANGUAGES = (
@@ -172,6 +174,7 @@ CMS_LANGUAGES = {
 CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
+    ('homepage.html', 'Homepage'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right')
 )
