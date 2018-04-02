@@ -1,0 +1,48 @@
+<section class="switchable bg--secondary">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-5">
+                <img alt="Image" class="border--round box-shadow-wide" src="/static/img/inner-2.jpg"/>
+            </div>
+            <div class="col-md-6">
+                <div class="row switchable__text">
+                    <p class="lead">
+                        E:
+                        <a href="#">{{ instance.email }}</a>
+                        <br/> P: {{ instance.phone }}
+                    </p>
+                    <p class="lead">
+                        Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on
+                        business days.
+                    </p>
+                    <p class="lead">
+                        We are open from 9am &mdash; 5pm week days.
+                    </p>
+                    <hr class="short">
+                    <form class="row" data-success="Thanks for your enquiry, we'll be in touch shortly."
+                          data-error="Please fill in all fields correctly." method="POST">
+                        {% csrf_token %}
+                        <div class="col-md-6">
+                            <label>Your Name:</label>
+                            <input type="text" name="name" class="validate-required"/>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Email Address:</label>
+                            <input type="email" name="email" class="validate-required validate-email"/>
+                        </div>
+                        <div class="col-md-12">
+                            <label>Message:</label>
+                            <textarea rows="4" name="message" class="validate-required"></textarea>
+                        </div>
+                        <div class="col-md-5 col-lg-4">
+                            <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button>
+                        </div>
+                    </form>
+                </div>
+                <!--end of row-->
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

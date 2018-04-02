@@ -12,4 +12,12 @@ class HeroAreaComponentPlugin(CMSPluginBase):
 
     def render(self, context, instance, placeholder):
         context = super(HeroAreaComponentPlugin, self).render(context, instance, placeholder)
+        instance = context['instance']
+
+        context['isHasImageFile'] = True
+        print(instance.image_file)
+        if instance.image_file is None:
+            context['isHasImageFile'] = False
+            print('test')
+
         return context

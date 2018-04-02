@@ -146,6 +146,9 @@ INSTALLED_APPS = (
     'tam_portfolio',
     
     'hero_area_plugin',
+    'overview_plugin',
+    'testimonial_plugin',
+    'contact_me_plugin'
 )
 
 LANGUAGES = (
