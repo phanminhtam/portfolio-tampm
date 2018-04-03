@@ -151,6 +151,7 @@ INSTALLED_APPS = (
     'testimonial_plugin',
     'contact_me_plugin',
     'portfolio_app',
+    'profile_plugin',
 )
 
 LANGUAGES = (
@@ -180,6 +181,7 @@ CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
     ('homepage.html', 'Homepage'),
+    ('profile_page.html', 'Profile Page'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right')
 )
