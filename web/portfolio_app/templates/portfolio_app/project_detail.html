@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+{% load cms_tags sekizai_tags %}
+
+{% block content %}
+    {% addtoblock 'css' %}
+        <link href="/static/css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    {% endaddtoblock %}
+
+    <div class="main-container">
+        <section class="imagebg parallax" data-overlay="4">
+            <div class="background-image-holder">
+                <img alt="background" src="{{ object.top_image.url }}"/>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>{{ object.title }}</h1>
+                        <ol class="breadcrumbs">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/portfolio">Portfolio</a>
+                            </li>
+                            <li>{{ object.title }}</li>
+                        </ol>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-3 col-lg-2">
+                        <div class="text-block">
+                            <span class="h5">Client:</span>
+                            <span>{{ object.client }}</span>
+                        </div>
+
+                        <div class="text-block">
+                            <span class="h5">Role:</span>
+                            <span>{{ object.roles }}</span>
+                        </div>
+
+                        <div class="text-block">
+                            <span class="h5">Length:</span>
+                            <span>{{ object.length }}</span>
+                        </div>
+                        {% if obejct.demo_url != None %}
+                            <div class="text-block">
+                                <span class="h5">Project Link:</span>
+                                <span>
+                                    <a href="{{ object.demo_url }}" target="_blank">{{ object.demo_url }}</a>
+                                </span>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="col-md-5 col-lg-5">
+                        <div class="text-block">
+                            <span class="h5">Description:</span>
+                            {{ object.description }}
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="text-block">
+                            <span class="h5">Skills:</span>
+                            <ul class="bullets">
+                                {% for tag in object.tags.all %}
+                                    <li>{{ tag.name }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slider" data-paging="true" data-arrows="true">
+                            <ul class="slides">
+                                {% for media in object.mediaasset_set.all %}
+                                    <li>
+                                        {% if media.type == 1 %}
+                                            <img alt="Image" src="{{ media.media_asset.url }}"/>
+                                        {% elif media.type == 2 %}
+                                            <iframe style="overflow:hidden;width:100%;" src="{{ media.youtube_url }}" frameborder="0" allowfullscreen></iframe>
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+        <section class="bg--secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-block">
+                            <h4>Related Project</h4>
+                        </div>
+                    </div>
+                    {% if previous_project != None %}
+                    <div class="col-md-6">
+                        <div class="project-thumb hover-element border--round hover--active">
+                            <a href="/portfolio/{{ previous_project.slug }}">
+                                <div class="hover-element__initial">
+                                    <div class="background-image-holder">
+                                        <img alt="background" src="{{ previous_project.top_image.url }}"/>
+                                    </div>
+                                </div>
+                                <div class="hover-element__reveal" data-scrim-top="5">
+                                    <div class="project-thumb__title">
+                                        <h4>{{ previous_project.title }}</h4>
+                                        <span>skills: {{ previous_project.skills }}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end item-->
+                    {% endif %}
+
+                    {% if next_project != None %}
+                    <div class="col-md-6">
+                        <div class="project-thumb hover-element border--round hover--active">
+                            <a href="/portfolio/{{ next_project.slug }}">
+                                <div class="hover-element__initial">
+                                    <div class="background-image-holder">
+                                        <img alt="background" src="{{ next_project.top_image.url }}"/>
+                                    </div>
+                                </div>
+                                <div class="hover-element__reveal" data-scrim-top="5">
+                                    <div class="project-thumb__title">
+                                        <h4>{{ next_project.title }}</h4>
+                                        <span>skills: {{ next_project.skills }}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end item-->
+                    {% endif %}
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+    </div>
+
+
+    {% addtoblock 'js' %}
+        <script src="/static/js/flickity.min.js"></script>
+    {% endaddtoblock %}
+{% endblock content %}

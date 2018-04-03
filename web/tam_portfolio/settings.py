@@ -142,13 +142,15 @@ INSTALLED_APPS = (
     'djangocms_video',
 
     'aldryn_style',
+    'taggit_autosuggest',
 
     'tam_portfolio',
     
     'hero_area_plugin',
     'overview_plugin',
     'testimonial_plugin',
-    'contact_me_plugin'
+    'contact_me_plugin',
+    'portfolio_app',
 )
 
 LANGUAGES = (

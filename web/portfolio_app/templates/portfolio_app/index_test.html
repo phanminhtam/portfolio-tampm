@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load cms_tags sekizai_tags %}
+
+{% block content %}
+
+    {% addtoblock 'css' %}
+
+    {% endaddtoblock %}
+
+    <!-- portfolio area start -->
+    <div class="section-padding" id="portfolio">
+        <div class="container">
+            <!-- project filter end -->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="project-filter style-2 text-center">
+                        <li class="active" data-filter="*">all</li>
+                        <li data-filter=".design">design</li>
+                        <li data-filter=".development">development</li>
+                        <li data-filter=".photography">photography</li>
+                        <li data-filter=".branding">branding</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- project filter end -->
+
+            <!-- all project lists start -->
+            <div class="row project-lists gird-2">
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 design branding photography">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/1.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>design, branding, photography</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 photography development">
+                    <div class="single-project-item project-bg-2">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/2.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>photography, development</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 branding design photography">
+                    <div class="single-project-item project-bg-3">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/3.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>design, branding, photography</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 branding development">
+                    <div class="single-project-item project-bg-4">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/4.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>development, branding</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 branding design development">
+                    <div class="single-project-item project-bg-5">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/5.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>design, branding, development</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 design photography">
+                    <div class="single-project-item project-bg-6">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/6.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>design, photography</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 photography development">
+                    <div class="single-project-item project-bg-7">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/7.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>development, photography</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+
+                <!-- single project start -->
+                <div class="col-md-6 col-sm-6 col-xs-12 development design">
+                    <div class="single-project-item project-bg-8">
+                        <div class="project-hover">
+                            <div class="project-buttons">
+                                <a href="#"><i class="flaticon-like"></i></a>
+                                <a href="assets/img/portfolio/8.jpg" class="image-popup"><i class="flaticon-expand"></i></a>
+                                <a href="work-details.html" target="_blank"><i class="flaticon-broken-link"></i></a>
+                            </div>
+                            <h3><a href="work-details.html">here goes projcet title</a></h3>
+                            <p>design, development</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single project end -->
+            </div>
+            <!-- all project lists end -->
+        </div>
+    </div>
+    <!-- portfolio area end -->
+
+{% endblock %}
