@@ -144,8 +144,6 @@ INSTALLED_APPS = (
     'aldryn_style',
     'taggit_autosuggest',
 
-    'dbbackup',  # django-dbbackup
-
     'tam_portfolio',
     
     'hero_area_plugin',
@@ -217,10 +215,3 @@ THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.filters'
 )
 
-
-DBBACKUP_LOCATION = os.path.join(DATA_DIR, 'backupdb')
-# Db Backup
-# DBBACKUP_STORAGE = 'dbbackup.storage.filesystem_storage'
-DBBACKUP_STORAGE_OPTIONS = {
-    'location': DBBACKUP_LOCATION
-}
