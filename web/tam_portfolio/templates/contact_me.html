@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load cms_tags sekizai_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+    {% addtoblock 'css' %}
+    <style lang="css">
+        .breadcrumbs li:not(:last-child):after {
+            content: '\00bb';
+            margin-left: 1.08333333333334em;
+            color: black!important;
+        }
+        .div-margin-top {
+            margin-top: 20px!important;
+        }
+    </style>
+    {% endaddtoblock %}
+
+    {% placeholder full_contact_me_component %}
+
+{% endblock %}

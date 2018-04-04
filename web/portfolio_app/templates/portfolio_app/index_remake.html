@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+{% load cms_tags sekizai_tags %}
+
+{% block content %}
+
+    {% addtoblock "css" %}
+        <link href="/static/css/flickity.css" rel="stylesheet" type="text/css" media="all">
+        <link href="/static/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
+    {% endaddtoblock %}
+
+    <div class="main-container">
+        <!-- Portfolio Title -->
+        <section class="text-center space--even imagebg parallax">
+            <div class="background-image-holder">
+                <img alt="background" src="/static/img/conference-1.jpg" />
+            </div>
+{#            <div class="container">#}
+{#                <div class="row">#}
+{#                    <div class="col-md-12">#}
+{#                        <div class="typed-headline">#}
+{#                            <span class="h2 inline-block">Stack helps forward-thinking clients</span>#}
+{#                            <span class="h2 inline-block typed-text typed-text--cursor color--primary"#}
+{#                                  data-typed-strings="engage audiences,convert visitors,forge ahead,establish brands,target customers,disrupt industries,communicate"></span>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <!--end of row-->#}
+{#            </div>#}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Portfolio</h1>
+                        <ol class="breadcrumbs">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/portfolio">Portfolio</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <!-- end Portfolio Title -->
+
+        <!-- List Project -->
+        <section>
+            <div class="container">
+                <div class="masonry">
+                    <div class="masonry-filter-container text-center row justify-content-center align-items-center">
+{#                        <span>Category:</span>#}
+                        <div class="masonry-filter-holder {% if tags|length < 8 %} masonry-filters--horizontal {% endif %}">
+                            <div class="masonry__filters">
+                                <ul>
+                                    <li class="active" data-masonry-filter="*">All Categories</li>
+                                    {% for tag in tags %}
+                                        <li data-masonry-filter="{{ tag.filter_tag }}">{{ tag.name }}({{ tag.project.all.count }})</li>
+                                    {% endfor %}
+    {#                                <li data-masonry-filter="marketing-design">Marketing Design</li>#}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="masonry__container masonry-margin-style">
+                        {% for project in object_list %}
+                            <div class="col-md-12 masonry-item-margin-style masonry__item {% for tag in project.tags.all %} filter-{{ tag.filter_tag }} {% endfor %}">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="text-block">
+                                            <h5><i class="portfolio-icon flaticon1-briefcase"></i>
+                                                Client:
+                                                <span style="font-weight: normal;">{{ project.client }}</span>
+                                            </h5>
+                                            <h5><i class="portfolio-icon flaticon1-waiter"></i> Role:
+                                                <span style="font-weight: normal;">{{ project.roles }}</span>
+                                            </h5>
+                                            <h5><i class="portfolio-icon flaticon1-code"></i> Skills:
+                                                <span style="font-weight: normal;">{{ project.skills }}</span>
+                                            </h5>
+                                            <h5><i class="portfolio-icon flaticon1-calendar-with-a-clock-time-tools"></i> Length:
+                                                <span style="font-weight: normal;">{{ project.length }}</span>
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                            <h2 style="margin-bottom: 16px;">
+                                                <a href="/portfolio/{{ project.slug }}" style="color: black;">{{ project.title }}</a>
+                                                <ul class="horizontal float-right">
+                                                    {% if project.demo_url != None %}
+                                                    <li>
+                                                        <a href="{{ project.demo_url }}" target="_blank">
+                                                            <i class="portfolio-icon fa fa-globe portfolio-icon-item"></i>
+                                                        </a>
+                                                    </li>
+                                                    {% endif %}
+
+                                                {% if project.youtube_embed_url != '' %}
+                                                    <div class="modal-instance">
+                                                        <a class="modal-trigger" href="#">
+                                                            <i class="portfolio-icon fa fa-youtube-play  portfolio-icon-item"></i>
+                                                        </a>
+                                                        <div class="modal-container">
+                                                            <div class="modal-content bg-dark" data-width="60%"
+                                                                 data-height="60%">
+                                                                <iframe data-src="{{ project.youtube_embed_url }}"
+                                                                        allowfullscreen="allowfullscreen"></iframe>
+                                                            </div>
+                                                            <!--end of modal-content-->
+                                                        </div>
+                                                    </div>
+                                                {% endif %}
+
+                                                {% if project.mediaasset_set.all|length != 0 %}
+                                                    <li>
+
+                                                    {% for media in project.mediaasset_set.all %}
+                                                        {% if forloop.first %}
+                                                            <a href="{{ media.media_asset.url }}" data-lightbox="gallery-{{ project.title }}">
+                                                                <i class="portfolio-icon fa fa-picture-o portfolio-icon-item"></i>
+                                                            </a>
+                                                        {% endif %}
+
+                                                        <a href="{{ media.media_asset.url }}"
+                                                           data-lightbox="gallery-{{ project.title }}"
+                                                           style="display: none!important;"
+                                                        ></a>
+                                                    {% endfor %}
+                                                    </li>
+
+                                                {% endif %}
+                                                </ul>
+
+                                            </h2>
+                                        <p>{{ project.short_description }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    {% addtoblock 'js' %}
+        <script src="/static/js/flickity.min.js"></script>
+        <script src="/static/js/lightbox.min.js"></script>
+    {% endaddtoblock 'js' %}
+
+{% endblock %}

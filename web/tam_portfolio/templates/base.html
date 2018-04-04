@@ -6,8 +6,11 @@
         <title>Tam Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site Description Here">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/static/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/flaticon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/css/custom_flaticon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/static/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/static/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/static/css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -41,7 +44,8 @@
             <!--end of container-->
         </div>
         <!--end bar-->
-        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='366px:pos-fixed'>
+{#        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='366px:pos-fixed'>#}
+        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute " data-scroll-class='366px:pos-fixed'>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-1 col-md-2 hidden-xs">
@@ -60,10 +64,10 @@
                             <ul class="menu-horizontal text-left">
                                 {% show_menu 0 100 100 100 %}
                                 <li class="child sibling">
-                                    <a href="https://github.com/phanminhtam" target="_blank">github</a>
-                                </li>
-                                <li class="child sibling">
-                                    <a href="https://www.upwork.com/o/profiles/users/_~01f18e2f7018c8ba95/" target="_blank">Upwork</a>
+                                    <a href="https://www.upwork.com/o/profiles/users/_~01f18e2f7018c8ba95/"
+                                       target="_blank" class="btn btn--sm btn--primary type--uppercase hire-me-button">
+                                        Hire Me
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -78,19 +82,22 @@
 
     {% block content %}{% endblock content %}
 
-    <footer class="footer-3 text-center-xs space--xs">
+    <footer class="space--sm footer-1 text-center-xs bg--dark ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img alt="Image" src="/static/img/resources/tp-400.png" width="56px" height="56px"/>
-                    <ul class="list-inline list--hover" style="margin-left: 10px;">
-                        <li class="list-inline-item">
-                            <span class="type--fine-print footer-text-style footer-bold">Tam Phan</span>
-                        </li>
-                    </ul>
+                            <span class="type--fine-print">&copy;
+                                    <span class="update-year"></span> Stack Inc.</span>
+                    <a class="type--fine-print" href="#">Privacy Policy</a>
+                    <a class="type--fine-print" href="#">Legal</a>
                 </div>
                 <div class="col-md-6 text-right text-center-xs">
                     <ul class="social-list list-inline list--hover">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/phanminhtam" target="_blank">
+                                <i class="socicon socicon-github icon icon--xs footer-text-style"></i>
+                            </a>
+                        </li>
                         <li class="list-inline-item">
                             <a href="https://www.linkedin.com/in/tampm/" target="_blank">
                                 <i class="socicon socicon-linkedin icon icon--xs footer-text-style"></i>
@@ -101,22 +108,16 @@
                                 <i class="socicon socicon-skype icon icon--xs footer-text-style"></i>
                             </a>
                         </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.upwork.com/o/profiles/users/_~01f18e2f7018c8ba95/"
+                               class="upwork-icon social-icon">
+                                <i class="socicon"></i>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
-            <!--end of row-->
-            <div class="row">
-                <div class="col-md-6">
-
-                </div>
-                <div class="col-md-6 text-right text-center-xs">
-                            <span class="type--fine-print footer-text-style">&copy;
-                                <span class="update-year"></span> Tam Phan, All Rights Reserved.</span>
-                    <a class="type--fine-print footer-text-style" href="#">Privacy Policy</a>
-                    <a class="type--fine-print footer-text-style" href="#">Legal</a>
-                </div>
-            </div>
-            <!--end of row-->
         </div>
         <!--end of container-->
     </footer>

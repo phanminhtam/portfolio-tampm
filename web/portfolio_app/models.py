@@ -9,7 +9,7 @@ from cms.models import CMSPlugin, PlaceholderField
 
 MEDIA_TYPE = (
     (1, 'Image'),
-    (2, 'Youtube Embed Video')
+    # (2, 'Youtube Embed Video')
 )
 
 
@@ -36,12 +36,14 @@ class Project(CMSPlugin):
 
     title = models.CharField(max_length=250, null=True, blank=True)
     sub_title = models.CharField(max_length=250, null=True, blank=True)
+    short_description = models.TextField(default='')
     description = HTMLField(_('description'), blank=True, default='')
     skills = models.CharField(max_length=255, null=True, blank=True)
     roles = models.CharField(max_length=255, null=True, blank=True)
     client = models.CharField(max_length=255, null=True, blank=True)
     length = models.CharField(max_length=50, null=True, blank=True)
     demo_url = models.URLField(max_length=255, null=True, blank=True)
+    youtube_embed_url = models.CharField(max_length=255, null=True, blank=True, default='')
     top_image = models.ImageField(upload_to='portfolio/img/top_image/', max_length=500, null=False, blank=False,
                                   default='')
     # published_date = models.DateTimeField(null=True, blank=True)

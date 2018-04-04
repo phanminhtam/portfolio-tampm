@@ -182,6 +182,7 @@ CMS_TEMPLATES = (
     ('fullwidth.html', 'Fullwidth'),
     ('homepage.html', 'Homepage'),
     ('profile_page.html', 'Profile Page'),
+    ('contact_me.html', 'Contact Me'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right')
 )

@@ -6,6 +6,17 @@
 {% block content %}
     {% addtoblock "css" %}
         <link href="/static/css/flickity.css" rel="stylesheet" type="text/css" media="all"/>
+        <style lang="css">
+            .breadcrumbs li:not(:last-child):after {
+                content: '\00bb';
+                margin-left: 1.08333333333334em;
+                color: black !important;
+            }
+
+            .div-margin-top {
+                margin-top: 20px !important;
+            }
+        </style>
     {% endaddtoblock %}
 
     {% placeholder profile_component %}

@@ -1,9 +1,9 @@
 .bar-1 .menu-horizontal > li > a {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .footer-text-style {
-    color: black!important;
+    /*color: black!important;*/
     opacity: 2!important;
     font-size: 16px!important;
 }
@@ -11,4 +11,70 @@
 .footer-bold {
     font-weight: bold;
     font-size: 28px!important;
+}
+
+.hire-me-button {
+    padding: 8px 20px!important;
+    background-color: #37a000!important;
+    color: #FFFFFF!important;
+    font-weight: bold!important;
+    opacity: 1!important;
+    border-radius: 0px!important;
+}
+
+.portfolio-icon {
+    margin-right: 10px;
+}
+
+.masonry-margin-style {
+    margin-top: 30px;
+}
+
+.masonry-item-margin-style {
+    margin-top: 15px;
+}
+
+.portfolio-icon-item {
+    color: black;
+    font-size: 24px;
+}
+
+.portfolio-icon-item:hover {
+    opacity: 0.8!important;
+}
+
+.horizontal {
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal li {
+    display: inline-block;
+}
+
+.social-icon {
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 27px;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    opacity: 2!important;
+}
+
+.black-color {
+    color: black!important;
+}
+
+.upwork-icon {
+    background-image: url(/static/img/resources/upwork-256.png);
+    background-size: cover;
+}
+
+.contact-me-icon-size {
+    font-size: 4em;
+}
+
+.contact-me-text-size {
+    font-size: 1.3em!important;;
 }

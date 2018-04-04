@@ -20,3 +20,22 @@ class ShortContactComponentPlugin(CMSPluginBase):
             message.save()
 
         return context
+
+
+@plugin_pool.register_plugin
+class FullContactComponentPlugin(CMSPluginBase):
+    model = ShortContact
+    render_template = 'contact_me_plugin/plugin/full_contact_me_page_component.html'
+    cache = False
+
+    def render(self, context, instance, placeholder):
+        context = super(FullContactComponentPlugin, self).render(context, instance, placeholder)
+
+        request = context['request']
+        if request.method == 'POST':
+            message = Message(name=request.POST['name'], email_address=request.POST['email'],
+                              message=request.POST['message'], phone=request.POST['phone'],
+                              subject=request.POST['subject'])
+            message.save()
+
+        return context
