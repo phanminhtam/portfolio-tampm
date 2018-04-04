@@ -31,6 +31,7 @@ class Profile(CMSPlugin):
             milestone_item_object.profile_id = self
             milestone_item_object.title = milestone_item.title
             milestone_item_object.date = milestone_item.date
+            milestone_item_object.media_asset = milestone_item.media_asset
             milestone_item_object.description = milestone_item.description
 
             milestone_item_object.save()

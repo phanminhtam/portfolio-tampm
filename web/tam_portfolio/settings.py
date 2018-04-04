@@ -144,6 +144,8 @@ INSTALLED_APPS = (
     'aldryn_style',
     'taggit_autosuggest',
 
+    'dbbackup',  # django-dbbackup
+
     'tam_portfolio',
     
     'hero_area_plugin',
@@ -195,6 +197,8 @@ DATABASES = {
         # Local Database
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'tam_portfolio_db',
+        # 'NAME': 'tam_portfolio_test_db',
+        # 'NAME': 'test_db',
         'USER': 'postgres',
         'PASSWORD': 'sinh1996',
         'HOST': 'localhost',
@@ -212,3 +216,11 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+
+DBBACKUP_LOCATION = os.path.join(DATA_DIR, 'backupdb')
+# Db Backup
+# DBBACKUP_STORAGE = 'dbbackup.storage.filesystem_storage'
+DBBACKUP_STORAGE_OPTIONS = {
+    'location': DBBACKUP_LOCATION
+}
