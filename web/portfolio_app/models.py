@@ -42,11 +42,19 @@ class Project(CMSPlugin):
     roles = models.CharField(max_length=255, null=True, blank=True)
     client = models.CharField(max_length=255, null=True, blank=True)
     length = models.CharField(max_length=50, null=True, blank=True)
+
     demo_url = models.URLField(max_length=255, null=True, blank=True)
+    android_demo_url = models.URLField(max_length=500, null=True, blank=True, default='')
+    ios_demo_url = models.URLField(max_length=500, null=True, blank=True, default='')
     youtube_embed_url = models.CharField(max_length=255, null=True, blank=True, default='')
-    top_image = models.ImageField(upload_to='portfolio/img/top_image/', max_length=500, null=False, blank=False,
+
+    top_image = models.ImageField(upload_to='portfolio/img/top_image/', max_length=500, null=True, blank=True,
                                   default='')
     # published_date = models.DateTimeField(null=True, blank=True)
+
+    is_published = models.BooleanField(null=False, blank=False, default=True)
+    is_homepage_display = models.BooleanField(null=False, blank=False, default=True)
+    is_list_display = models.BooleanField(null=False, blank=False, default=True)
 
     tags = models.ManyToManyField(Tag, verbose_name=_('tag'), related_name='project')
 
@@ -82,3 +90,14 @@ class MediaAsset(models.Model):
 
     def __str__(self):
         return self.name
+
+
+# Extra model for latest works for homepage component
+class LatestWorkSection(CMSPlugin):
+    objects = models.Manager()
+
+    title = models.CharField(max_length=500, null=True, blank=True, default='')
+    message = models.TextField(null=True, blank=True, default='')
+
+    def __str__(self):
+        return self.title

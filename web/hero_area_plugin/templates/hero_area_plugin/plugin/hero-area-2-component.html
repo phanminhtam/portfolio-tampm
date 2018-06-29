@@ -1,0 +1,42 @@
+<section class="cover height-90 imagebg text-center" data-overlay="2" id="home">
+    <div class="background-image-holder">
+{#        <img alt="background" src="/static/img/landing-10.jpg"/>#}
+        {% if instace.background_image.url != '' %}
+            <img alt="background" src="{{ instance.image_file.url }}"/>
+        {% else %}
+            <img alt="background" src="/tampm/static/img/landing-10.jpg"/>
+        {% endif %}
+    </div>
+    <div class="container pos-vertical-center">
+        <div class="row">
+            <div class="col-md-8">
+                <img alt="Image" class="unmarg--bottom" src="/tampm/static/img/headline-1.png"/>
+                <h3 class="hero-area-title">
+                    Hi, I'm <span class="hero-area-name">{{ instance.name }}</span>
+                </h3>
+                <h4 class="hero-area-message">
+                    {{ instance.message }}
+                </h4>
+{#                {% if instance.youtube_introduction != '' and instance.youtube_introduction is not None %}#}
+                <div class="modal-instance">
+                    <a class="btn btn-primary type--uppercase modal-trigger" href="#" style="border: none;">
+                                    <span class="btn__text">
+                                        <span style="margin-right: 10px;">&#9654;</span> Watch My Introduction
+                                    </span>
+                    </a>
+                    <div class="modal-container">
+                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
+                            <iframe data-src="{{ instance.youtube_introduction }}"
+                                    allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                        <!--end of modal-content-->
+                    </div>
+                    <!--end of modal-container-->
+                </div>
+{#                {% endif %}#}
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

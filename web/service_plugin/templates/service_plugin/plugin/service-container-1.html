@@ -1,0 +1,21 @@
+{% load cms_tags %}
+<!-- Features Section -->
+<section class="padding-top-70">
+    <div class="container relative">
+        <h4 class="letter-spacing-0 divide-line margin-bottom-25" style="margin-bottom: 15px!important;"><span style="letter-spacing: 0px;">____</span></h4>
+
+        <h2 class="service-container-title" style="margin-bottom: 0px">
+            Why Choose Me?
+        </h2>
+
+        <!-- Features Grid -->
+        <div class="row multi-columns-row alt-features-grid">
+            {% for plugin in instance.child_plugin_instances %}
+                {% render_plugin plugin %}
+            {% endfor %}
+        </div>
+        <!-- End Features Grid -->
+
+    </div>
+</section>
+<!-- End Features Section -->

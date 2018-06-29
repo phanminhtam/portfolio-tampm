@@ -1,0 +1,14 @@
+{% load cms_tags %}
+<!-- Features Section -->
+<section style="padding-top: 0px">
+    <div class="container relative">
+        <!-- Features Grid -->
+        <div class="row multi-columns-row alt-features-grid">
+            {% for plugin in instance.child_plugin_instances %}
+                {% render_plugin plugin %}
+            {% endfor %}
+        </div>
+        <!-- End Features Grid -->
+    </div>
+</section>
+<!-- End Features Section -->

@@ -31,6 +31,10 @@ class ProjectIndexView(AppConfigMixin, generic.ListView):
         tags = Tag.objects.all()
         context['tags'] = tags
 
+        # Remove all unpublished project
+        object_list = Project.objects.filter(is_published=True, is_list_display=True)
+        context['object_list'] = object_list
+
         return context
 
 

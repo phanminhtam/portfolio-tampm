@@ -5,14 +5,20 @@
 
 {% block content %}
     {% addtoblock "css" %}
-        <link href="/static/css/flickity.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="/tampm/static/css/flickity.css" rel="stylesheet" type="text/css" media="all"/>
     {% endaddtoblock %}
 
 <div class="main-container">
     <!-- Introduction -->
     {% placeholder hero_area %}
 
+    {% placeholder about_me %}
+
     {% placeholder overview %}
+
+    {% placeholder latest_work %}
+
+    {% placeholder services %}
 
     {% placeholder testimonials %}
 
@@ -20,6 +26,6 @@
 </div>
 
     {% addtoblock "js" %}
-        <script src="/static/js/flickity.min.js"></script>
+        <script src="/tampm/static/js/flickity.min.js"></script>
     {% endaddtoblock %}
 {% endblock content %}

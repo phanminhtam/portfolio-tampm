@@ -59,8 +59,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
-MEDIA_URL = '/media/'
+# STATIC_URL = '/static/'
+# MEDIA_URL = '/media/'
+STATIC_URL = '/tampm/static/'
+MEDIA_URL = '/tampm/media/'
 MEDIA_ROOT = os.path.join(DATA_DIR, 'media')
 STATIC_ROOT = os.path.join(DATA_DIR, 'static')
 
@@ -145,13 +147,15 @@ INSTALLED_APPS = (
     'taggit_autosuggest',
 
     'tam_portfolio',
-    
+
+    'about_me_plugin',
     'hero_area_plugin',
     'overview_plugin',
     'testimonial_plugin',
     'contact_me_plugin',
     'portfolio_app',
     'profile_plugin',
+    'service_plugin',
 )
 
 LANGUAGES = (
@@ -183,6 +187,8 @@ CMS_TEMPLATES = (
     ('homepage.html', 'Homepage'),
     ('profile_page.html', 'Profile Page'),
     ('contact_me.html', 'Contact Me'),
+    ('contact.html', 'Contact Me 2'),
+    ('services.html', 'Services'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right')
 )
@@ -197,7 +203,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'tam_portfolio_db',
         # 'NAME': 'tam_portfolio_test_db',
-        # 'NAME': 'test_db',
+        # 'NAME': 'test_tam_portfolio_db',
         'USER': 'postgres',
         'PASSWORD': 'sinh1996',
         'HOST': 'localhost',

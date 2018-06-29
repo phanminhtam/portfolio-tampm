@@ -10,34 +10,17 @@
 
     <div class="main-container">
         <!-- Portfolio Title -->
-        <section class="text-center space--even imagebg parallax">
-            <div class="background-image-holder">
-                <img alt="background" src="/static/img/conference-1.jpg" />
-            </div>
-{#            <div class="container">#}
-{#                <div class="row">#}
-{#                    <div class="col-md-12">#}
-{#                        <div class="typed-headline">#}
-{#                            <span class="h2 inline-block">Stack helps forward-thinking clients</span>#}
-{#                            <span class="h2 inline-block typed-text typed-text--cursor color--primary"#}
-{#                                  data-typed-strings="engage audiences,convert visitors,forge ahead,establish brands,target customers,disrupt industries,communicate"></span>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <!--end of row-->#}
+        <section class="text-center space--even parallax padding-top-160">
+{#            <div class="background-image-holder">#}
+{#                <img alt="background" src="/static/img/conference-1.jpg" />#}
 {#            </div>#}
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Portfolio</h1>
-                        <ol class="breadcrumbs">
-                            <li>
-                                <a href="/">Home</a>
-                            </li>
-                            <li>
-                                <a href="/portfolio">Portfolio</a>
-                            </li>
-                        </ol>
+                        <div class="typed-headline" style="text-align: left;">
+                            <h3 class="hero-area-checkout" style="text-transform: uppercase">Check out <span style="letter-spacing: 0px;">_____</span></h3>
+                            <h2 class="hero-area-portfolio-title">My Portfolio</h2>
+                        </div>
                     </div>
                 </div>
                 <!--end of row-->
@@ -54,7 +37,7 @@
 {#                        <span>Category:</span>#}
                         <div class="masonry-filter-holder {% if tags|length < 8 %} masonry-filters--horizontal {% endif %}">
                             <div class="masonry__filters">
-                                <ul>
+                                <ul class="tag-filter-title">
                                     <li class="active" data-masonry-filter="*">All Categories</li>
                                     {% for tag in tags %}
                                         <li data-masonry-filter="{{ tag.filter_tag }}">{{ tag.name }}({{ tag.project.all.count }})</li>
@@ -64,33 +47,19 @@
                             </div>
                         </div>
                     </div>
+
+                    <hr/>
+                
                     <div class="masonry__container masonry-margin-style">
                         {% for project in object_list %}
                             <div class="col-md-12 masonry-item-margin-style masonry__item {% for tag in project.tags.all %} filter-{{ tag.filter_tag }} {% endfor %}">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="text-block">
-                                            <h5><i class="portfolio-icon flaticon1-briefcase"></i>
-                                                Client:
-                                                <span style="font-weight: normal;">{{ project.client }}</span>
-                                            </h5>
-                                            <h5><i class="portfolio-icon flaticon1-waiter"></i> Role:
-                                                <span style="font-weight: normal;">{{ project.roles }}</span>
-                                            </h5>
-                                            <h5><i class="portfolio-icon flaticon1-code"></i> Skills:
-                                                <span style="font-weight: normal;">{{ project.skills }}</span>
-                                            </h5>
-                                            <h5><i class="portfolio-icon flaticon1-calendar-with-a-clock-time-tools"></i> Length:
-                                                <span style="font-weight: normal;">{{ project.length }}</span>
-                                            </h5>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-8">
-                                            <h2 style="margin-bottom: 16px;">
-                                                <a href="/portfolio/{{ project.slug }}" style="color: black;">{{ project.title }}</a>
+                                    <div class="col-md-12">
+                                        <h2 style="margin-bottom: 16px;">
+{#                                                <a href="/portfolio/{{ project.slug }}" style="color: black;">{{ project.title }}</a>#}
+                                                <a style="color: black;">{{ project.title }}</a>
                                                 <ul class="horizontal float-right">
-                                                    {% if project.demo_url != None %}
+                                                    {% if project.demo_url != None and project.demo_url != ''%}
                                                     <li>
                                                         <a href="{{ project.demo_url }}" target="_blank">
                                                             <i class="portfolio-icon fa fa-globe portfolio-icon-item"></i>
@@ -98,7 +67,23 @@
                                                     </li>
                                                     {% endif %}
 
-                                                {% if project.youtube_embed_url != '' %}
+                                                    {% if project.android_demo_url != None and project.android_demo_url != '' %}
+                                                        <li>
+                                                            <a href="{{ project.android_demo_url }}" target="_blank">
+                                                                <i class="portfolio-icon fa fa-android portfolio-icon-item"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
+
+                                                    {% if project.ios_demo_url != None and project.ios_demo_url != '' %}
+                                                        <li>
+                                                            <a href="{{ project.ios_demo_url }}" target="_blank">
+                                                                <i class="portfolio-icon fa fa-apple portfolio-icon-item"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
+
+                                                {% if project.youtube_embed_url != '' and project.youtube_embed_url is not None%}
                                                     <div class="modal-instance">
                                                         <a class="modal-trigger" href="#">
                                                             <i class="portfolio-icon fa fa-youtube-play  portfolio-icon-item"></i>
@@ -119,13 +104,14 @@
 
                                                     {% for media in project.mediaasset_set.all %}
                                                         {% if forloop.first %}
-                                                            <a href="{{ media.media_asset.url }}" data-lightbox="gallery-{{ project.title }}">
+{#                                                            <a href="{{ media.media_asset.url }}" data-lightbox="gallery-{{ project.title }}">#}
+                                                            <a href="{{ media.media_asset.url }}" data-lightbox="gallery-{{ project.slug }}">
                                                                 <i class="portfolio-icon fa fa-picture-o portfolio-icon-item"></i>
                                                             </a>
                                                         {% endif %}
 
                                                         <a href="{{ media.media_asset.url }}"
-                                                           data-lightbox="gallery-{{ project.title }}"
+                                                           data-lightbox="gallery-{{ project.slug }}"
                                                            style="display: none!important;"
                                                         ></a>
                                                     {% endfor %}
@@ -135,6 +121,28 @@
                                                 </ul>
 
                                             </h2>
+                                    </div>
+                                </div>
+                                <div class="row" style="font-size: 16px;">
+                                    <div class="col-md-4">
+                                        <div class="text-block">
+                                            <h5><i class="portfolio-icon flaticon1-briefcase"></i>
+                                                Client:
+                                                <span style="font-weight: normal;">{{ project.client }}</span>
+                                            </h5>
+                                            <h5><i class="portfolio-icon flaticon1-waiter"></i> Role:
+                                                <span style="font-weight: normal;">{{ project.roles }}</span>
+                                            </h5>
+                                            <h5><i class="portfolio-icon flaticon1-code"></i> Skills:
+                                                <span style="font-weight: normal;">{{ project.skills }}</span>
+                                            </h5>
+                                            <h5><i class="portfolio-icon flaticon1-calendar-with-a-clock-time-tools"></i> Length:
+                                                <span style="font-weight: normal;">{{ project.length }}</span>
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-8">
                                         <p>{{ project.short_description }}</p>
                                     </div>
                                 </div>
