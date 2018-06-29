@@ -1,0 +1,42 @@
+version: '3.3'
+services:
+  db:
+    image: postgres:9.6
+    container_name: tam_portfolio_db
+    restart: always
+    # command: bash -c "pg_restore --username=postgres -d tam_portfolio_db ./backupdb/hien_portfolio_db_04-11-2018_14-39.sql"
+    volumes: 
+      - psql:/var/lib/postgresql/data
+      - ./backupdb:/backupdb
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=sinh1996
+      - POSTGRES_DB=tam_portfolio_db
+  nginx:
+    image: nginx:latest
+    container_name: tam_portfolio_nginx
+    restart: always
+    ports:
+      - '5005:5005'
+    volumes:
+      - ./web:/tam_portfolio
+      - ./nginx/:/etc/nginx/conf.d
+      - ./web/static:/static
+      - ./web/media:/media
+    depends_on:
+      - web
+  web:
+    build: ./web
+    container_name: tam_portfolio_web
+    restart: always
+    volumes:
+      - ./web:/app
+    # command: bash -c "python manage.py migrate && gunicorn tam_portfolio.wsgi -b 0.0.0.0:8020"
+    command: bash -c "gunicorn tam_portfolio.wsgi -b 0.0.0.0:8020"
+    depends_on:
+      - db
+    expose:
+      - "8020"
+volumes:
+  psql:
+    driver: local
