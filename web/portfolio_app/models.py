@@ -52,6 +52,9 @@ class Project(CMSPlugin):
                                   default='')
     # published_date = models.DateTimeField(null=True, blank=True)
 
+    # Placeholder property
+    use_case = PlaceholderField('use_case')
+
     is_published = models.BooleanField(null=False, blank=False, default=True)
     is_homepage_display = models.BooleanField(null=False, blank=False, default=True)
     is_list_display = models.BooleanField(null=False, blank=False, default=True)
@@ -76,6 +79,10 @@ class Project(CMSPlugin):
 
     def test_function(self):
         return '{}: test'.format(self.title)
+
+    @property
+    def sorted_mediaaset_set(self):
+        return self.mediaasset_set.order_by('id')
 
 
 class MediaAsset(models.Model):

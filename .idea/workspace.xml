@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="50fa64c3-913a-4844-b4cf-5275e4e93e84" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tam_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/tam_portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="service-container-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-container-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="latest-work-1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/plugin/latest-work-1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,20 +34,8 @@
       <file leaf-file-name="custom-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7157">
-              <caret line="421" column="1" selection-start-line="421" selection-start-column="1" selection-end-line="421" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cms_plugins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/portfolio_app/cms_plugins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="450" column="21" lean-forward="true" selection-start-line="450" selection-start-column="21" selection-end-line="450" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -60,8 +43,56 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/tam_portfolio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="549">
+              <caret line="210" column="19" lean-forward="true" selection-start-line="210" selection-start-column="19" selection-end-line="210" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hero-area-2-component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_remake.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="114" column="57" selection-start-line="99" selection-start-column="52" selection-end-line="114" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
+              <folding>
+                <element signature="n#section#0;n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" />
+                <element signature="e#3202#3390#0#HTML" />
+                <element signature="e#7572#11402#0#HTML" />
+                <element signature="e#11836#12151#0#HTML" />
+                <element signature="e#12336#21927#0#HTML" />
+                <element signature="e#12477#12792#0#HTML" />
+                <element signature="e#12442#21361#0#HTML" />
+                <element signature="e#13081#13175#0#HTML" />
+                <element signature="e#17497#21080#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,37 +104,17 @@
       </file>
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/portfolio_app/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/portfolio_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="289">
+              <caret line="83" column="28" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +126,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -137,6 +148,9 @@
       <find>skill-statistic-font</find>
       <find>hero</find>
       <find>portfolio</find>
+      <find>portfolio-icon-item</find>
+      <find>portfolio-icon-li</find>
+      <find>project-info-detail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/portfolio_app/cms_appconfig.py" />
         <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_test.html" />
         <option value="$PROJECT_DIR$/web/portfolio_app/urls.py" />
         <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index.html" />
@@ -183,18 +196,19 @@
         <option value="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/full_contact_me_page_component.html" />
         <option value="$PROJECT_DIR$/web/tam_portfolio/urls.py" />
         <option value="$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/skill-content-1-component.html" />
-        <option value="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" />
         <option value="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact-me-1-component.html" />
         <option value="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact_me_component.html" />
         <option value="$PROJECT_DIR$/web/tam_portfolio/templates/base.html" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/views.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/models.py" />
         <option value="$PROJECT_DIR$/web/portfolio_app/admin.py" />
         <option value="$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html" />
         <option value="$PROJECT_DIR$/web/portfolio_app/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" />
         <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/plugin/latest-work-1.html" />
+        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html" />
+        <option value="$PROJECT_DIR$/web/portfolio_app/views.py" />
+        <option value="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" />
+        <option value="$PROJECT_DIR$/web/portfolio_app/models.py" />
+        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html" />
+        <option value="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" />
         <option value="$PROJECT_DIR$/web/tam_portfolio/settings.py" />
       </list>
     </option>
@@ -219,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,12 +243,37 @@
             <path>
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="hero_area_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="hero_area_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="hero_area_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="hero_area_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="hero_area_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="hero_area_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
@@ -247,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,21 +357,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32979852" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32979852" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32943678" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32943678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3995749" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -354,20 +394,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/overview_plugin/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/overview_plugin/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/overview_plugin/cms_plugins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -553,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact-me-1-component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -588,27 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
@@ -660,12 +658,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7157">
-          <caret line="421" column="1" selection-start-line="421" selection-start-column="1" selection-end-line="421" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/nginx/tam_portfolio.conf">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/plugin/latest-work-1.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,18 +668,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/tam_portfolio.conf">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/img/resources/arrows.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="114" column="57" selection-start-line="99" selection-start-column="52" selection-end-line="114" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="450" column="21" lean-forward="true" selection-start-line="450" selection-start-column="21" selection-end-line="450" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" />
+            <element signature="e#3202#3390#0#HTML" />
+            <element signature="e#7572#11402#0#HTML" />
+            <element signature="e#11836#12151#0#HTML" />
+            <element signature="e#12336#21927#0#HTML" />
+            <element signature="e#12477#12792#0#HTML" />
+            <element signature="e#12442#21361#0#HTML" />
+            <element signature="e#13081#13175#0#HTML" />
+            <element signature="e#17497#21080#0#HTML" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
+        <state relative-caret-position="442">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/tam_portfolio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="549">
+          <caret line="210" column="19" lean-forward="true" selection-start-line="210" selection-start-column="19" selection-end-line="210" selection-end-column="19" />
         </state>
       </provider>
     </entry>
