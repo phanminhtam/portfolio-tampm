@@ -46,8 +46,11 @@
       <file leaf-file-name="hero-area-2-component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="21" column="108" lean-forward="true" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -354,8 +357,8 @@
       <window_info anchor="bottom" id="Run" order="3" weight="0.32979852" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32943678" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32943678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -722,8 +725,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="21" column="108" lean-forward="true" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
