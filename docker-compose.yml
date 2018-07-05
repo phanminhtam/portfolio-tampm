@@ -12,6 +12,21 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=sinh1996
       - POSTGRES_DB=tam_portfolio_db
+  db_backuper:
+    build: db_backuper
+    container_name: tam_portfolio_db_backuper
+    restart: always
+    volumes:
+      - ./backups:/backups
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=sinh1996
+      - POSTGRES_DB=tam_portfolio_db
+      - DB_BACKUP_CRON_SCHEDULE=25 9 * * *  # in UTC time
+      - DB_BACKUP_DELETE_OLDER_THAN=11520    # 8 days (in minutes)
+    depends_on:
+      - db
   nginx:
     image: nginx:latest
     container_name: tam_portfolio_nginx
