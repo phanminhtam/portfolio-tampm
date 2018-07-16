@@ -5,7 +5,7 @@ RUN apt-get update && \
 COPY backup.sh /
 RUN chmod +x /backup.sh
 COPY docker-entrypoint.sh /
-RUN chmod +x /docker-entrypoint.sh
-VOLUME /backups
-ENTRYPOINT ["/docker-entrypoint.sh"]
+# RUN chmod +x /docker-entrypoint.sh
+# VOLUME /backups
+# ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["cron", "-f"]

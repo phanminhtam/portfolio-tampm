@@ -206,8 +206,8 @@ DATABASES = {
         # 'NAME': 'test_tam_portfolio_db',
         'USER': 'postgres',
         'PASSWORD': 'sinh1996',
-        # 'HOST': 'localhost',
-        'HOST': 'db',
+        'HOST': 'localhost',
+        # 'HOST': 'db',
         'PORT': '',
     }
 }

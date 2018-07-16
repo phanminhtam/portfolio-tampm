@@ -23,8 +23,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=sinh1996
       - POSTGRES_DB=tam_portfolio_db
-      - DB_BACKUP_CRON_SCHEDULE=25 9 * * *  # in UTC time
-      - DB_BACKUP_DELETE_OLDER_THAN=11520    # 8 days (in minutes)
+      - DB_BACKUP_CRON_SCHEDULE=25  9 * * *  # in UTC time
+      - DB_BACKUP_DELETE_OLDER_THAN=14400    # 10 days (in minutes)
     depends_on:
       - db
   nginx:
