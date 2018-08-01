@@ -156,6 +156,7 @@ INSTALLED_APPS = (
     'portfolio_app',
     'profile_plugin',
     'service_plugin',
+    'static_plugin',
 )
 
 LANGUAGES = (
@@ -203,7 +204,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'tam_portfolio_db',
         # 'NAME': 'tam_portfolio_test_db',
-        # 'NAME': 'test_tam_portfolio_db',
         'USER': 'postgres',
         'PASSWORD': 'sinh1996',
         'HOST': 'localhost',

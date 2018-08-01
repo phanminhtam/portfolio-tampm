@@ -1,0 +1,58 @@
+{% load cms_tags menu_tags sekizai_tags %}
+<div class="nav-container ">
+    <div class="bar bar--sm visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-2">
+                    <a href="index.html">
+                        {#                            <img class="logo logo-dark" alt="logo" src="/static/img/resources/tp-400.png"/>#}
+                        <img class="logo-dark" alt="logo" src="/tampm/static/img/resources/tp-400.png" width="32px"
+                             height="32px"/>
+                    </a>
+                </div>
+                <div class="col-9 col-md-10 text-right">
+                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                        <i class="icon icon--sm stack-interface stack-menu"></i>
+                    </a>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </div>
+    <!--end bar-->
+{#            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='366px:pos-fixed'>#}
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute " data-scroll-class='366px:pos-fixed'>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-2 hidden-xs">
+                    <div class="bar__module">
+                        <a href="/">
+                            <img class="logo-dark" alt="logo" src="/tampm/static/img/resources/tp-400.png" width="56px"
+                                 height="56px"/>
+                            <!--<img class="logo logo-dark" alt="logo" src="static/img/logo-dark.png" />-->
+                            <!--<img class="logo logo-light" alt="logo" src="static/img/logo-light.png" />-->
+                        </a>
+                    </div>
+                    <!--end module-->
+                </div>
+                <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm" height="100%">
+                    <div class="bar__module" height="100%">
+                        <ul class="menu-horizontal text-left">
+                            {% show_menu 0 100 100 100 %}
+                            <li class="child sibling">
+                                <a href="https://www.upwork.com/o/profiles/users/_~01f18e2f7018c8ba95/"
+                                   target="_blank" class="btn btn--sm btn--primary type--uppercase hire-me-button">
+                                    Hire Me
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </nav>
+    <!--end bar-->
+</div>
