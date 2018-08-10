@@ -1,0 +1,20 @@
+<section class="bg--secondary">
+    <div class="container">
+        <h2 class="serivce-title">Why Choose Me?</h2>
+        <div class="row">
+            {% for service in services %}
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="{{ service.icon_class_name }} color--primary"></i>
+                    <h4>{{ service.title }}</h4>
+                    <p>
+                        {{ service.description }}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

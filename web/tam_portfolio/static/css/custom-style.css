@@ -20,6 +20,7 @@
     font-weight: bold!important;
     opacity: 1!important;
     border-radius: 0px!important;
+    border: none!important;
 }
 
 .portfolio-icon {
@@ -529,4 +530,10 @@ padding-right-30 {
     /*border: 1px solid #111;*/
     background-color: black;
     z-index: -1;
+}
+
+/* Homepage Style */
+.serivce-title {
+    font-size: 34px;
+    font-weight: bold;
 }

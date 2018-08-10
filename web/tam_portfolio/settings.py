@@ -148,14 +148,16 @@ INSTALLED_APPS = (
 
     'tam_portfolio',
 
-    'about_me_plugin',
-    'hero_area_plugin',
-    'overview_plugin',
-    'testimonial_plugin',
-    'contact_me_plugin',
-    'portfolio_app',
-    'profile_plugin',
-    'service_plugin',
+    # 'about_me_plugin',
+    # 'hero_area_plugin',
+    # 'overview_plugin',
+    # 'testimonial_plugin',
+    # 'contact_me_plugin',
+    # 'portfolio_app',
+    # 'profile_plugin',
+    # 'service_plugin',
+    'portfolio_models',
+    'home_plugin',
 )
 
 LANGUAGES = (
