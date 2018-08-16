@@ -2,8 +2,8 @@ from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 from cms.models.pluginmodel import CMSPlugin
 
-from .models import TextCenter
-from portfolio_models.models import Header, Profile, Skill, Service
+from .models import TextCenter, ShortHeader
+from portfolio_models.models import Header, Profile, Skill, Service, Message
 
 
 @plugin_pool.register_plugin
@@ -135,5 +135,37 @@ class SkillContainerComponentOne(CMSPluginBase):
         skills = Skill.objects.get_all_order_by_percentage()
 
         context['skills'] = skills
+
+        return context
+
+
+@plugin_pool.register_plugin
+class ContactMeOneComponent(CMSPluginBase):
+    model = CMSPlugin
+    render_template = 'home_plugin/plugin/contact-1.html'
+    cache = False
+
+    def render(self, context, instance, placeholder):
+        context = super(ContactMeOneComponent, self).render(context, instance, placeholder)
+
+        request = context['request']
+        if request.method == 'POST':
+            message = Message(name=request.POST['name'], email_address=request.POST['email'],
+                              message_text=request.POST['message'], phone=request.POST['phone'],
+                              subject=request.POST['subject'])
+            message.save()
+
+        return context
+
+
+@plugin_pool.register_plugin
+class ShortHeaderOneComponent(CMSPluginBase):
+    model = ShortHeader
+    render_template = 'home_plugin/plugin/short-header-1.html'
+    cache = False
+    allow_children = False
+
+    def render(self, context, instance, placeholder):
+        context = super(ShortHeaderOneComponent, self).render(context, instance, placeholder)
 
         return context

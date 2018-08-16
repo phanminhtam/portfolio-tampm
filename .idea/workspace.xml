@@ -2,123 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50fa64c3-913a-4844-b4cf-5275e4e93e84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/cms_plugins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/customer-support-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/pricing-plan-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/service-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/skill-container-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/subscribe-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/text-center-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/video-play-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/base_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/header.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/skill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/seed_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/contact_plugin/cms_plugins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-area-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-header-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/contact-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/short-header-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/education.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/portfolio_models/models/working_experience.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/profile_plugin/cms_plugins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/box-area-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/profile-area-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/service_plugin/cms_plugins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-area-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tam_portfolio/templates/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/migrations/0002_aboutus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/migrations/0003_auto_20180620_1342.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/migrations/0004_auto_20180620_1638.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/migrations/0005_statistic_font_icon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/about-me-1-component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/skill-container-1-component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/skill-content-1-component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/statistic-1-component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about_me_plugin/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/migrations/0002_auto_20180404_1625.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/migrations/0003_shortcontact_working_location.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact-me-1-component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact_me_component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/full_contact_me_page_component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contact_me_plugin/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/migrations/0002_auto_20180402_1355.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/migrations/0003_auto_20180402_1414.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/migrations/0004_auto_20180620_0829.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/migrations/0005_heroarea_name_image_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero_area_component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/short-hero-area-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hero_area_plugin/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/homepage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/templates/overview_plugin/plugin/overview_component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/overview_plugin/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/migrations/0002_milestoneitem_media_asset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/profile_component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/profile_plugin/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/project.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-container-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-container-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-content-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service_plugin/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home_plugin/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/home_plugin/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home_plugin/cms_plugins.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/home_plugin/cms_plugins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home_plugin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/home_plugin/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_models/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_models/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_models/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_models/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/portfolio_models/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/portfolio_models/models/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/seed_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/seed_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tam_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/tam_portfolio/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tam_portfolio/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/tam_portfolio/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tam_portfolio_db_04-04-2018.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tam_portfolio_db_04-04-2018_10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tam_portfolio_db_05-04-2018_15h32.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/cms_plugins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/migrations/0002_auto_20180402_1744.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/templates/testimonial_plugin/plugin/testimonial_component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/testimonial_plugin/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -132,41 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cms_plugins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home_plugin/cms_plugins.py">
+      <file leaf-file-name="education.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/education.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="93" column="25" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/service-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="536" selection-start-line="536" selection-end-line="536" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -174,11 +54,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="working_experience.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/working_experience.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile-area-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/profile-area-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="40" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -189,22 +90,10 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/portfolio_models/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skill.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/skill.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="184" selection-start-line="25" selection-start-column="184" selection-end-line="25" selection-end-column="184" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,17 +102,29 @@
       <file leaf-file-name="seed_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/seed_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skill-container-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/skill-container-1.html">
+      <file leaf-file-name="service.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -242,13 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
-      <find>data-masonry-filter</find>
-      <find>DATA_DIR</find>
-      <find>link</find>
-      <find>skype</find>
-      <find>world</find>
-      <find>github</find>
       <find>u</find>
       <find>phone</find>
       <find>mail</find>
@@ -270,6 +164,15 @@
       <find>project_list</find>
       <find>recycling</find>
       <find>sync-clo</find>
+      <find>message</find>
+      <find>tag</find>
+      <find>service</find>
+      <find>soccer</find>
+      <find>swimming</find>
+      <find>video</find>
+      <find>book</find>
+      <find>Open-Book</find>
+      <find>plan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -278,57 +181,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-content-1.html" />
-        <option value="$PROJECT_DIR$/web/hero_area_plugin/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/web/tam_portfolio/templates/contact.html" />
-        <option value="$PROJECT_DIR$/web/tam_portfolio/templates/services.html" />
-        <option value="$PROJECT_DIR$/web/service_plugin/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-container-2.html" />
-        <option value="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/short-hero-area-1.html" />
-        <option value="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/full_contact_me_page_component.html" />
-        <option value="$PROJECT_DIR$/web/tam_portfolio/urls.py" />
-        <option value="$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/skill-content-1-component.html" />
-        <option value="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact-me-1-component.html" />
-        <option value="$PROJECT_DIR$/web/contact_me_plugin/templates/contact_me_plugin/plugin/contact_me_component.html" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/admin.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/plugin/latest-work-1.html" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/views.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/models.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html" />
-        <option value="$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/hero-area-component.html" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-component.html" />
-        <option value="$PROJECT_DIR$/web/tam_portfolio/settings.py" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-1-component.html" />
         <option value="$PROJECT_DIR$/web/portfolio_models/models/Header.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_models/models/base_model.py" />
         <option value="$PROJECT_DIR$/web/portfolio_models/models/header.py" />
         <option value="$PROJECT_DIR$/web/portfolio_models/seed_data.py" />
         <option value="$PROJECT_DIR$/web/profile_seed_data.json" />
         <option value="$PROJECT_DIR$/web/portfolio_models/models/profile.py" />
         <option value="$PROJECT_DIR$/web/portfolio_models/models.py" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-2-component.html" />
-        <option value="$PROJECT_DIR$/web/tam_portfolio/templates/base.html" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/video-play-1.html" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/customer-support-1.html" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/pricing-plan-1.html" />
-        <option value="$PROJECT_DIR$/web/home_plugin/models.py" />
-        <option value="$PROJECT_DIR$/web/home_plugin/admin.py" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/text-center-1.html" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/subscribe-1.html" />
         <option value="$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html" />
         <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/skill-container-1.html" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/service.py" />
+        <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/service-1.html" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/skill.py" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/base_model.py" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/message.py" />
+        <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/contact-1.html" />
+        <option value="$PROJECT_DIR$/web/tam_portfolio/templates/base.html" />
+        <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-3.html" />
+        <option value="$PROJECT_DIR$/web/home_plugin/models.py" />
+        <option value="$PROJECT_DIR$/web/home_plugin/admin.py" />
+        <option value="$PROJECT_DIR$/web/home_plugin/cms_plugins.py" />
+        <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/short-header-1.html" />
+        <option value="$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/profile-area.html" />
+        <option value="$PROJECT_DIR$/web/service_plugin/cms_plugins.py" />
+        <option value="$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-area-1.html" />
+        <option value="$PROJECT_DIR$/web/tam_portfolio/settings.py" />
+        <option value="$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-area-1.py" />
+        <option value="$PROJECT_DIR$/web/contact_plugin/cms_plugins.py" />
+        <option value="$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-header-1.html" />
+        <option value="$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-area-1.html" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/contact.py" />
+        <option value="$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html" />
         <option value="$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css" />
+        <option value="$PROJECT_DIR$/web/profile_plugin/cms_plugins.py" />
+        <option value="$PROJECT_DIR$/web/tam_portfolio/templates/profile.html" />
+        <option value="$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/box-area-1.html" />
+        <option value="$PROJECT_DIR$/web/tam_portfolio/static/css/iconsmind.css" />
+        <option value="$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/profile-area-1.html" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/education.py" />
+        <option value="$PROJECT_DIR$/web/portfolio_models/models/working_experience.py" />
         <option value="$PROJECT_DIR$/web/portfolio_models/models/__init__.py" />
         <option value="$PROJECT_DIR$/web/portfolio_models/admin.py" />
         <option value="$PROJECT_DIR$/web/seed_data.py" />
-        <option value="$PROJECT_DIR$/web/portfolio_models/models/service.py" />
-        <option value="$PROJECT_DIR$/web/home_plugin/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/service-1.html" />
-        <option value="$PROJECT_DIR$/web/portfolio_models/models/skill.py" />
       </list>
     </option>
   </component>
@@ -352,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,6 +271,36 @@
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="home_plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,23 +352,7 @@
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio_app" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio_models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio_models" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
@@ -444,6 +360,49 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio_models" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
@@ -463,12 +422,21 @@
               <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-tampm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-tampm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="tam_portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,7 +508,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -548,8 +515,8 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32979852" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33900106" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2390625" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33900106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2390625" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -577,316 +544,341 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nginx/tam_portfolio.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/views.py">
+    <entry file="file://$PROJECT_DIR$/../cms/portfolio-tampm/env/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="209">
+          <caret line="1168" column="26" selection-start-line="1168" selection-start-column="19" selection-end-line="1168" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/img/resources/arrows.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index_remake.html">
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/base_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="114" column="57" selection-start-line="99" selection-start-column="52" selection-end-line="114" selection-end-column="57" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/theme-tangerine.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="5059" column="1" selection-start-line="5059" selection-start-column="1" selection-end-line="5059" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/templates/hero_area_plugin/plugin/hero-area-2-component.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="100" column="12" lean-forward="true" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/migrations/0005_heroarea_name_image_file.py" />
-    <entry file="file://$PROJECT_DIR$/web/hero_area_plugin/migrations/0004_auto_20180620_0829.py" />
-    <entry file="file://$PROJECT_DIR$/web/models.py" />
-    <entry file="file://$PROJECT_DIR$/backupdb/tam_portfolio_db_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="230" selection-start-line="230" selection-end-line="230" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backupdb/tam_portfolio_db_script.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="440" column="24" lean-forward="true" selection-start-line="440" selection-start-column="24" selection-end-line="440" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/about-me-1-component.html" />
-    <entry file="file://$PROJECT_DIR$/web/about_me_plugin/templates/about_me_plugin/plugins/statistic-1-component.html" />
     <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/plugin/latest-work-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/cms_plugins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/seed_data.py" />
-    <entry file="file://$PROJECT_DIR$/web/seed_data.json" />
-    <entry file="file://$PROJECT_DIR$/web/profile_seed_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="64" selection-start-column="64" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/video-play-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="102" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/customer-support-1.html">
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/theme-red.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#451#458#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="-923">
+          <caret line="4867" column="3" selection-start-line="4867" selection-start-column="3" selection-end-line="4867" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/pricing-plan-1.html">
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/theme-aqua.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+        <state relative-caret-position="199">
+          <caret line="3203" column="5" selection-start-line="3203" selection-start-column="5" selection-end-line="3203" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/header-area-3.html" />
+    <entry file="file://$PROJECT_DIR$/web/profile_plugin/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home_plugin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/text-center-1.html">
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/subscribe-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cms/portfolio-tampm/env/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cms/portfolio-tampm/env/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="174" column="42" lean-forward="true" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="69" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/base_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="323">
+          <caret line="70" column="110" selection-start-line="70" selection-start-column="110" selection-end-line="70" selection-end-column="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home_plugin/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models.py">
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/services.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/web/service_plugin/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service_plugin/cms_plugins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="134" column="62" lean-forward="true" selection-start-line="134" selection-start-column="62" selection-end-line="134" selection-end-column="62" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html">
+    <entry file="file://$PROJECT_DIR$/web/service_plugin/templates/service_plugin/plugin/service-area-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/skill-container-1.html">
+    <entry file="file://$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-area-1.py" />
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contact_plugin/cms_plugins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service_plugin/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile_plugin/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/contact-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-area-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms/portfolio-tampm/env/Lib/site-packages/filer/static/filer/css/admin_filer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="5" column="1294" selection-start-line="5" selection-start-column="1294" selection-end-line="5" selection-end-column="1294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contact_plugin/templates/contact_plugin/plugin/contact-header-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/short-header-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/templates/portfolio_app/index-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" selection-start-line="94" selection-end-line="99" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/custom-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="536" selection-start-line="536" selection-end-line="536" />
+        <state relative-caret-position="2108">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/admin.py">
+    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/skill-container-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/iconsmind.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5412" column="1" lean-forward="true" selection-start-line="5412" selection-start-column="1" selection-end-line="5412" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/seed_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home_plugin/cms_plugins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="93" column="25" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="64" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile_plugin/cms_plugins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/service-1.html">
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/skill.py">
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/box-area-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home_plugin/templates/home_plugin/plugin/service-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="3" selection-start-column="8" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tam_portfolio/static/css/iconsmind.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71978">
+          <caret line="4234" column="10" selection-start-line="4234" selection-start-column="6" selection-end-line="4234" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms/portfolio-tampm/env/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-821">
+          <caret line="1803" column="6" selection-start-line="1803" selection-start-column="6" selection-end-line="1803" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/education.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/seed_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile_plugin/templates/profile_plugin/plugin/profile-area-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="184" selection-start-line="25" selection-start-column="184" selection-end-line="25" selection-end-column="184" />
+          <caret line="40" column="20" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/portfolio_models/models/working_experience.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

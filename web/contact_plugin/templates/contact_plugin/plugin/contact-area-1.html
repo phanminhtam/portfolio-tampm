@@ -1,0 +1,50 @@
+<section class=" bg--secondary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <div class="row">
+                    <div class="boxed boxed--border">
+                        <form class="text-left row"
+                              data-success="Thanks for your enquiry, we'll be in touch shortly."
+                              data-error="Please fill in all fields correctly."
+                              data-recaptcha-theme="light"
+                              method="post"
+                        >
+                            <div class="col-md-6">
+                                <span>Name:</span>
+                                <input type="text" name="name" class="validate-required"/>
+                            </div>
+                            <div class="col-md-6">
+                                <span>Phone:</span>
+                                <input type="tel" name="phone" class="validate-required"/>
+                            </div>
+                            <div class="col-md-12">
+                                <span>Email Address:</span>
+                                <input type="email" name="email"
+                                       class="validate-required validate-email"/>
+                            </div>
+                            <div class="col-md-12">
+                                <span>Subject:</span>
+                                <input type="text" name="subject" class="validate-required"/>
+                            </div>
+                            <div class="col-md-12">
+                                <span>Message:</span>
+                                <textarea rows="5" name="message"
+                                          class="validate-required"></textarea>
+                            </div>
+                            <div class="col-md-12 boxed">
+                                <button type="submit" class="btn btn--primary type--uppercase">Submit
+                                    Planner
+                                </button>
+                            </div>
+                            {% csrf_token %}
+                        </form>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

@@ -1,0 +1,30 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="boxed bg--secondary boxed--lg boxed--border">
+                    <h4 style="margin-bottom: 3em;">My Core Competencies</h4>
+                    <div class="row">
+                        {% for skill in skills %}
+                            <div class="col-md-4 col-12">
+                                <div class="feature">
+                                    <div class="radial" data-value="{{ skill.percentage }}" data-size="208"
+                                         data-bar-width="8" data-color="#4a90e2">
+                                        <span class="h3 radial__label">{{ skill.title }}</span>
+                                    </div>
+                                    <!--end radial-->
+                                    <p>
+                                        {{ skill.description }}
+                                    </p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <!--end of row-->
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

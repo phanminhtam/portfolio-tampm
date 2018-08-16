@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load cms_tags sekizai_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+    {% addtoblock "css" %}
+
+    {% endaddtoblock %}
+
+<div class="main-container">
+    <!-- Short Header Area -->
+    {% placeholder short_header_area %}
+
+    <!-- Profile -->
+    {% placeholder profile_area %}
+
+</div>
+
+    {% addtoblock 'js' %}
+        <script src="/tampm/static/js/easypiechart.min.js"></script>
+    {% endaddtoblock %}
+
+{% endblock %}

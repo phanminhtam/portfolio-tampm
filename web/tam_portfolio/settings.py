@@ -158,6 +158,10 @@ INSTALLED_APPS = (
     # 'service_plugin',
     'portfolio_models',
     'home_plugin',
+    'profile_plugin',
+    'service_plugin',
+    'contact_plugin',
+    'portfolio_app',
 )
 
 LANGUAGES = (
@@ -191,6 +195,7 @@ CMS_TEMPLATES = (
     ('contact_me.html', 'Contact Me'),
     ('contact.html', 'Contact Me 2'),
     ('services.html', 'Services'),
+    ('profile.html', 'Profile'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right')
 )

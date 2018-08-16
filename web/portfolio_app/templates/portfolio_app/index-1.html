@@ -10,13 +10,20 @@
 
     <div class="main-container">
         <!-- Portfolio Title -->
-        <section class="text-center space--even parallax padding-top-160">
+        <section class="imagebg image--light cover cover-blocks bg--secondary">
+            <div class="background-image-holder hidden-xs">
+                <img alt="background" src="/tampm/static/img/promo-1.jpg"/>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="typed-headline" style="text-align: left;">
-                            <h3 class="hero-area-checkout" style="text-transform: uppercase">Check out <span style="letter-spacing: 0px;">_____</span></h3>
-                            <h2 class="hero-area-portfolio-title">My Portfolio</h2>
+                    <div class="col-md-6 col-lg-5 ">
+                        <div>
+                            <h1>My Portfolio</h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim ultricies odio,
+                                vel fringilla massa dignissim sit amet.
+                            </p>
+                            <hr class="short">
                         </div>
                     </div>
                 </div>
@@ -24,14 +31,13 @@
             </div>
             <!--end of container-->
         </section>
-        <!-- end Portfolio Title -->
 
         <!-- List Project -->
         <section>
             <div class="container">
                 <div class="masonry">
                     <div class="masonry-filter-container text-center row justify-content-center align-items-center">
-{#                        <span>Category:</span>#}
+                        {#                        <span>Category:</span>#}
                         <div class="masonry-filter-holder {% if tags|length < 8 %} masonry-filters--horizontal {% endif %}">
                             <div class="masonry__filters">
                                 <ul class="tag-filter-title">
@@ -39,7 +45,7 @@
                                     {% for tag in tags %}
                                         <li data-masonry-filter="{{ tag.filter_tag }}">{{ tag.name }}({{ tag.project.all.count }})</li>
                                     {% endfor %}
-    {#                                <li data-masonry-filter="marketing-design">Marketing Design</li>#}
+                                    {#                                <li data-masonry-filter="marketing-design">Marketing Design</li>#}
                                 </ul>
                             </div>
                         </div>
@@ -49,85 +55,86 @@
 
                     <div class="masonry__container masonry-margin-style">
                         {% for project in object_list %}
-                        <div class="col-md-12 masonry-item-margin-style masonry__item {% for tag in project.tags.all %} filter-{{ tag.filter_tag }} {% endfor %}">
-                            {% if not forloop.counter|divisibleby:2 %}
-                                <div class="row">
-                                    <!-- Project detail -->
-                                    <div class="col-md-6">
-                                        <h4 class="hero-area-message" style="margin-bottom: 15px!important;"><span style="letter-spacing: 0px;">____</span></h4>
-                                        <h4 class="font-alt mt-0 mb-20 display-table">
-    {#                                        <a href="/hiennv/portfolio/{{ project.slug }}" class="pull-left project-title">#}
-                                            <a href="#" class="pull-left project-title">
-                                                {{ project.title }}
-                                            </a>
+                            <div class="col-md-12 masonry-item-margin-style masonry__item {% for tag in project.tags.all %} filter-{{ tag.filter_tag }} {% endfor %}">
+                                {% if not forloop.counter|divisibleby:2 %}
+                                    <div class="row">
+                                        <!-- Project detail -->
+                                        <div class="col-md-6">
+                                            <h4 class="hero-area-message" style="margin-bottom: 15px!important;"><span
+                                                    style="letter-spacing: 0px;">____</span></h4>
+                                            <h4 class="font-alt mt-0 mb-20 display-table">
+                                                {#                                        <a href="/hiennv/portfolio/{{ project.slug }}" class="pull-left project-title">#}
+                                                <a href="#" class="pull-left project-title">
+                                                    {{ project.title }}
+                                                </a>
 
-                                            <span class="display-vertical-table-cell padding-left-25 pull-left margin-top-12">
-                                                <img src="/tampm/static/img/resources/arrows.svg" alt=""
-                                                     class="display-vertical-table-cell"/>
-                                            </span>
-            {#                                <ul class="pull-right ul-list-media-asset">#}
-                                            <ul class="pull-right ul-list-media-asset pull-left padding-left-30">
+                                                <span class="display-vertical-table-cell padding-left-25 pull-left margin-top-12">
+                                                    <img src="/tampm/static/img/resources/arrows.svg" alt=""
+                                                        class="display-vertical-table-cell"/>
+                                                </span>
+                                                {#                                <ul class="pull-right ul-list-media-asset">#}
+                                                <ul class="pull-right ul-list-media-asset pull-left padding-left-30">
 
-                                                {% if project.android_demo_url != '' and project.android_demo_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.android_demo_url }}" target="_blank">
-                                                            <i class="portfolio-icon fa fa-android font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.android_demo_url != '' and project.android_demo_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.android_demo_url }}" target="_blank">
+                                                                <i class="portfolio-icon fa fa-android font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.ios_demo_url != '' and project.ios_demo_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.ios_demo_url }}" target="_blank">
-                                                            <i class="portfolio-icon fa fa-apple font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.ios_demo_url != '' and project.ios_demo_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.ios_demo_url }}" target="_blank">
+                                                                <i class="portfolio-icon fa fa-apple font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.demo_url != '' and project.demo_url is not None %}
-                                                <li class="portfolio-icon-li">
-                                                    <a href="{{ project.demo_url }}" target="_blank">
-            {#                                            <i class="portfolio-icon fa fa-globe font-size-16 white"></i>#}
-                                                        <i class="portfolio-icon fa fa-link font-size-16 white"></i>
-                                                    </a>
-                                                </li>
-                                                {% endif %}
+                                                    {% if project.demo_url != '' and project.demo_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.demo_url }}" target="_blank">
+                                                                {#                                            <i class="portfolio-icon fa fa-globe font-size-16 white"></i>#}
+                                                                <i class="portfolio-icon fa fa-link font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.youtube_embed_url != '' and project.youtube_embed_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.youtube_embed_url }}"
-                                                           class="lightbox mfp-iframe">
-                                                            <i class="portfolio-icon fa fa-youtube-play font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.youtube_embed_url != '' and project.youtube_embed_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.youtube_embed_url }}"
+                                                               class="lightbox mfp-iframe">
+                                                                <i class="portfolio-icon fa fa-youtube-play font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.mediaasset_set.all|length != 0 %}
-                                                    <li class="portfolio-icon-li">
-                                                        {% for media in project.sorted_mediaaset_set.all %}
-                                                            {% if forloop.first %}
-                                                                <a href="{{ media.media_asset.url }}"
-                                                                   data-lightbox="gallery-{{ project.slug }}">
-                                                                    <i class="portfolio-icon fa fa-image font-size-18 white"></i>
-                                                                </a>
-                                                            {% else %}
-                                                                <a href="{{ media.media_asset.url }}"
-                                                                   data-lightbox="gallery-{{ project.slug }}"
-                                                                   style="display: none!important;"
-                                                                ></a>
-                                                            {% endif %}
-                                                        {% endfor %}
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.mediaasset_set.all|length != 0 %}
+                                                        <li class="portfolio-icon-li">
+                                                            {% for media in project.sorted_mediaaset_set.all %}
+                                                                {% if forloop.first %}
+                                                                    <a href="{{ media.media_asset.url }}"
+                                                                       data-lightbox="gallery-{{ project.slug }}">
+                                                                        <i class="portfolio-icon fa fa-image font-size-18 white"></i>
+                                                                    </a>
+                                                                {% else %}
+                                                                    <a href="{{ media.media_asset.url }}"
+                                                                       data-lightbox="gallery-{{ project.slug }}"
+                                                                       style="display: none!important;"
+                                                                    ></a>
+                                                                {% endif %}
+                                                            {% endfor %}
+                                                        </li>
+                                                    {% endif %}
 
-                                            </ul>
-                                        </h4>
+                                                </ul>
+                                            </h4>
 
-                                        <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0">
-                                            <!-- Project Detail -->
-                                            <div class="work-detail">
-                                                <div class="work-full-detail work-full-detail-no-border">
-                                                    <p>
+                                            <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0">
+                                                <!-- Project Detail -->
+                                                <div class="work-detail">
+                                                    <div class="work-full-detail work-full-detail-no-border">
+                                                        <p>
                                                         <div class="row">
                                                             <div class="col-md-2">
                                                                 <strong class="project-info-label">Clients:</strong>
@@ -137,8 +144,8 @@
                                                                 <span class="text-none-transform project-info-detail">{{ project.client }}</span>
                                                             </div>
                                                         </div>
-                                                    </p>
-                                                    <p>
+                                                        </p>
+                                                        <p>
                                                         <div class="row">
                                                             <div class="col-md-2">
                                                                 <strong class="project-info-label">Length:</strong>
@@ -148,8 +155,8 @@
                                                                 <span class="text-none-transform project-info-detail">{{ project.length }}</span>
                                                             </div>
                                                         </div>
-                                                    </p>
-                                                    <p>
+                                                        </p>
+                                                        <p>
                                                         <div class="row">
                                                             <div class="col-md-2">
                                                                 <strong class="project-info-label">Roles:</strong>
@@ -159,8 +166,8 @@
                                                                 <span class="text-none-transform project-info-detail">{{ project.roles }}</span>
                                                             </div>
                                                         </div>
-                                                    </p>
-                                                    <p>
+                                                        </p>
+                                                        <p>
                                                         <div class="row">
                                                             <div class="col-md-2">
                                                                 <strong class="project-info-label">Skills:</strong>
@@ -170,174 +177,176 @@
                                                                 <span class="text-none-transform project-info-detail">{{ project.skills }}</span>
                                                             </div>
                                                         </div>
-                                                    </p>
+                                                        </p>
+                                                    </div>
                                                 </div>
+                                                <!-- End Project Detail -->
                                             </div>
-                                            <!-- End Project Detail -->
-                                    </div>
 
-                                    <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0 text-normal project-detail margin-top-30">
-                                        <p>{{ project.short_description  }}</p>
-                                    </div>
+                                            <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0 text-normal project-detail margin-top-30">
+                                                <p>{{ project.short_description }}</p>
+                                            </div>
 
-                                    </div>
-                                    <!-- End Project Detail -->
+                                        </div>
+                                        <!-- End Project Detail -->
 
-                                    <!-- Project Top Image -->
-                                    <div class="col-md-6 hidden-sm hidden-xs">
-                                        {% if project.top_image != '' %}
-                                            <img src="{{ project.top_image.url }}" class="top-image-list margin-top-65">
-                                        {% endif %}
+                                        <!-- Project Top Image -->
+                                        <div class="col-md-6 hidden-sm hidden-xs">
+                                            {% if project.top_image != '' %}
+                                                <img src="{{ project.top_image.url }}"
+                                                     class="top-image-list margin-top-65">
+                                            {% endif %}
+                                        </div>
+                                        <!-- End Project Top Image -->
                                     </div>
-                                    <!-- End Project Top Image -->
-                                </div>
-                            {% else %}
-                                <div class="row">
-                                    <!-- Project Top Image -->
-                                    <div class="col-md-6 hidden-sm hidden-xs">
-                                        {% if project.top_image != '' %}
-                                            <img src="{{ project.top_image.url }}" class="top-image-list margin-top-65">
-                                        {% endif %}
-                                    </div>
-                                    <!-- End Project Top Image -->
+                                {% else %}
+                                    <div class="row">
+                                        <!-- Project Top Image -->
+                                        <div class="col-md-6 hidden-sm hidden-xs">
+                                            {% if project.top_image != '' %}
+                                                <img src="{{ project.top_image.url }}"
+                                                     class="top-image-list margin-top-65">
+                                            {% endif %}
+                                        </div>
+                                        <!-- End Project Top Image -->
 
-                                    <!-- Project detail -->
-                                    <div class="col-md-6">
-                                        <h4 class="hero-area-message" style="margin-bottom: 15px!important;"><span
-                                                style="letter-spacing: 0px;">____</span></h4>
-                                        <h4 class="font-alt mt-0 mb-20 display-table">
-{#                                            <a href="/hiennv/portfolio/{{ project.slug }}"#}
-{#                                               class="pull-left project-title">#}
-                                            <a href="#"
-                                               class="pull-left project-title">
-                                                {{ project.title }}
-                                            </a>
+                                        <!-- Project detail -->
+                                        <div class="col-md-6">
+                                            <h4 class="hero-area-message" style="margin-bottom: 15px!important;"><span
+                                                    style="letter-spacing: 0px;">____</span></h4>
+                                            <h4 class="font-alt mt-0 mb-20 display-table">
+                                                {#                                            <a href="/hiennv/portfolio/{{ project.slug }}"#}
+                                                {#                                               class="pull-left project-title">#}
+                                                <a href="#"
+                                                   class="pull-left project-title">
+                                                    {{ project.title }}
+                                                </a>
 
-                                            <span class="display-vertical-table-cell padding-left-25 pull-left margin-top-12">
+                                                <span class="display-vertical-table-cell padding-left-25 pull-left margin-top-12">
                                             <img src="/tampm/static/img/resources/arrows.svg" alt=""
                                                  class="display-vertical-table-cell"/>
                                         </span>
-                                            {#                                <ul class="pull-right ul-list-media-asset">#}
-                                            <ul class="pull-right ul-list-media-asset pull-left padding-left-30">
+                                                {#                                <ul class="pull-right ul-list-media-asset">#}
+                                                <ul class="pull-right ul-list-media-asset pull-left padding-left-30">
 
-                                                {% if project.android_demo_url != '' and project.android_demo_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.android_demo_url }}" target="_blank">
-                                                            <i class="portfolio-icon fa fa-android font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.android_demo_url != '' and project.android_demo_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.android_demo_url }}" target="_blank">
+                                                                <i class="portfolio-icon fa fa-android font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.ios_demo_url != '' and project.ios_demo_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.ios_demo_url }}" target="_blank">
-                                                            <i class="portfolio-icon fa fa-apple font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.ios_demo_url != '' and project.ios_demo_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.ios_demo_url }}" target="_blank">
+                                                                <i class="portfolio-icon fa fa-apple font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.demo_url != '' and project.demo_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.demo_url }}" target="_blank">
-                                                            {#                                            <i class="portfolio-icon fa fa-globe font-size-16 white"></i>#}
-                                                            <i class="portfolio-icon fa fa-link font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.demo_url != '' and project.demo_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.demo_url }}" target="_blank">
+                                                                {#                                            <i class="portfolio-icon fa fa-globe font-size-16 white"></i>#}
+                                                                <i class="portfolio-icon fa fa-link font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.youtube_embed_url != '' and project.youtube_embed_url is not None %}
-                                                    <li class="portfolio-icon-li">
-                                                        <a href="{{ project.youtube_embed_url }}"
-                                                           class="lightbox mfp-iframe">
-                                                            <i class="portfolio-icon fa fa-youtube-play font-size-16 white"></i>
-                                                        </a>
-                                                    </li>
-                                                {% endif %}
+                                                    {% if project.youtube_embed_url != '' and project.youtube_embed_url is not None %}
+                                                        <li class="portfolio-icon-li">
+                                                            <a href="{{ project.youtube_embed_url }}"
+                                                               class="lightbox mfp-iframe">
+                                                                <i class="portfolio-icon fa fa-youtube-play font-size-16 white"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
 
-                                                {% if project.mediaasset_set.all|length != 0 %}
-                                                    <li class="portfolio-icon-li">
-                                                        {% for media in project.sorted_mediaaset_set.all %}
-                                                            {% if forloop.first %}
-                                                                <a href="{{ media.media_asset.url }}"
-                                                                   data-lightbox="gallery-{{ project.slug }}">
-                                                                    <i class="portfolio-icon fa fa-image font-size-18 white"></i>
-                                                                </a>
-                                                            {% else %}
+                                                    {% if project.mediaasset_set.all|length != 0 %}
+                                                        <li class="portfolio-icon-li">
+                                                            {% for media in project.sorted_mediaaset_set.all %}
+                                                                {% if forloop.first %}
+                                                                    <a href="{{ media.media_asset.url }}"
+                                                                       data-lightbox="gallery-{{ project.slug }}">
+                                                                        <i class="portfolio-icon fa fa-image font-size-18 white"></i>
+                                                                    </a>
+                                                                {% else %}
 
-                                                                <a href="{{ media.media_asset.url }}"
-                                                                   data-lightbox="gallery-{{ project.slug }}"
-                                                                   style="display: none!important;"
-                                                                ></a>
-                                                            {% endif %}
-                                                        {% endfor %}
-                                                    </li>
-                                                {% endif %}
+                                                                    <a href="{{ media.media_asset.url }}"
+                                                                       data-lightbox="gallery-{{ project.slug }}"
+                                                                       style="display: none!important;"
+                                                                    ></a>
+                                                                {% endif %}
+                                                            {% endfor %}
+                                                        </li>
+                                                    {% endif %}
 
-                                            </ul>
-                                        </h4>
+                                                </ul>
+                                            </h4>
 
-                                        <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0">
-                                            <!-- Project Detail -->
-                                            <div class="work-detail">
-                                                <div class="work-full-detail work-full-detail-no-border">
-                                                    <p>
-                                                    <div class="row">
-                                                        <div class="col-md-2">
-                                                            <strong class="project-info-label">Clients:</strong>
+                                            <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0">
+                                                <!-- Project Detail -->
+                                                <div class="work-detail">
+                                                    <div class="work-full-detail work-full-detail-no-border">
+                                                        <p>
+                                                        <div class="row">
+                                                            <div class="col-md-2">
+                                                                <strong class="project-info-label">Clients:</strong>
+                                                            </div>
+
+                                                            <div class="col-md-10">
+                                                                <span class="text-none-transform project-info-detail">{{ project.client }}</span>
+                                                            </div>
                                                         </div>
+                                                        </p>
+                                                        <p>
+                                                        <div class="row">
+                                                            <div class="col-md-2">
+                                                                <strong class="project-info-label">Length:</strong>
+                                                            </div>
 
-                                                        <div class="col-md-10">
-                                                            <span class="text-none-transform project-info-detail">{{ project.client }}</span>
+                                                            <div class="col-md-10">
+                                                                <span class="text-none-transform project-info-detail">{{ project.length }}</span>
+                                                            </div>
                                                         </div>
+                                                        </p>
+                                                        <p>
+                                                        <div class="row">
+                                                            <div class="col-md-2">
+                                                                <strong class="project-info-label">Roles:</strong>
+                                                            </div>
+
+                                                            <div class="col-md-10">
+                                                                <span class="text-none-transform project-info-detail">{{ project.roles }}</span>
+                                                            </div>
+                                                        </div>
+                                                        </p>
+                                                        <p>
+                                                        <div class="row">
+                                                            <div class="col-md-2">
+                                                                <strong class="project-info-label">Skills:</strong>
+                                                            </div>
+
+                                                            <div class="col-md-10">
+                                                                <span class="text-none-transform project-info-detail">{{ project.skills }}</span>
+                                                            </div>
+                                                        </div>
+                                                        </p>
                                                     </div>
-                                                    </p>
-                                                    <p>
-                                                    <div class="row">
-                                                        <div class="col-md-2">
-                                                            <strong class="project-info-label">Length:</strong>
-                                                        </div>
-
-                                                        <div class="col-md-10">
-                                                            <span class="text-none-transform project-info-detail">{{ project.length }}</span>
-                                                        </div>
-                                                    </div>
-                                                    </p>
-                                                    <p>
-                                                    <div class="row">
-                                                        <div class="col-md-2">
-                                                            <strong class="project-info-label">Roles:</strong>
-                                                        </div>
-
-                                                        <div class="col-md-10">
-                                                            <span class="text-none-transform project-info-detail">{{ project.roles }}</span>
-                                                        </div>
-                                                    </div>
-                                                    </p>
-                                                    <p>
-                                                    <div class="row">
-                                                        <div class="col-md-2">
-                                                            <strong class="project-info-label">Skills:</strong>
-                                                        </div>
-
-                                                        <div class="col-md-10">
-                                                            <span class="text-none-transform project-info-detail">{{ project.skills }}</span>
-                                                        </div>
-                                                    </div>
-                                                    </p>
                                                 </div>
+                                                <!-- End Project Detail -->
                                             </div>
-                                            <!-- End Project Detail -->
-                                        </div>
 
-                                        <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0 text-normal project-detail margin-top-30">
-                                            <p>{{ project.short_description }}</p>
-                                        </div>
+                                            <div class="col-md-12 mb-sm-50 mb-xs-30 padding-0 text-normal project-detail margin-top-30">
+                                                <p>{{ project.short_description }}</p>
+                                            </div>
 
+                                        </div>
+                                        <!-- End Project Detail -->
                                     </div>
-                                    <!-- End Project Detail -->
-                                </div>
-                            {% endif %}
-                        </div>
+                                {% endif %}
+                            </div>
                         {% endfor %}
                     </div>
                 </div>

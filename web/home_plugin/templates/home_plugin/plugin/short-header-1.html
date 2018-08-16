@@ -1,0 +1,26 @@
+<section class="imagebg image--light cover cover-blocks bg--secondary">
+    <div class="background-image-holder hidden-xs">
+        {% if instance.header_image is not None and instance.header_image != '' %}
+            <img alt="background" src="{{ instance.header_image.url }}"/>
+        {% else %}
+            <img alt="background" src="/tampm/static/img/promo-1.jpg"/>
+        {% endif %}
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-5 ">
+                <div>
+                    <h1>{{ instance.title }}</h1>
+                    <p class="lead">
+                        {% if instance.description is not None and instance.description != '' %}
+                            {{ instance.description }}
+                        {% endif %}
+                    </p>
+                    <hr class="short">
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
